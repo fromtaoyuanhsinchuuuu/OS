@@ -1,0 +1,33 @@
+== Test thread package with public testcase mp1-part1-0 (5%) ==
+thread package with public testcase mp1-part1-0: OK (24.7s)
+== Test thread package with public testcase mp1-part1-1 (5%) ==
+thread package with public testcase mp1-part1-1: OK (2.2s)
+== Test thread package with public testcase mp1-part2-0 (5%) ==
+thread package with public testcase mp1-part2-0: OK (1.8s)
+== Test thread package with public testcase mp1-part2-1 (5%) ==
+thread package with public testcase mp1-part2-1: OK (2.4s)
+== Test thread package with public testcase mp1-part2-2 (5%) ==
+thread package with public testcase mp1-part2-2: OK (2.2s)
+== Test thread package with public testcase custom-1 (5%) ==
+Timeout! thread package with public testcase custom-1: FAIL (30.6s)
+    [Error] Output on line 43: 'qemu-system-riscv64: terminating on signal 15 from pid 4866 (make)', should be 'f1: 430000, 101'
+== Test thread package with public testcase custom-2 (5%) ==
+thread package with public testcase custom-2: OK (2.8s)
+== Test thread package with public testcase custom-3 (5%) ==
+thread package with public testcase custom-3: OK (2.4s)
+== Test thread package with public testcase custom-4 (5%) ==
+thread package with public testcase custom-4: OK (4.7s)
+== Test thread package with public testcase custom-5 (5%) ==
+thread package with public testcase custom-5: OK (5.9s)
+== Test thread package with public testcase custom-6 (5%) ==
+thread package with public testcase custom-6: OK (6.4s)
+== Test thread package with public testcase custom-7 (5%) ==
+thread package with public testcase custom-7: OK (7.2s)
+== Test thread package with public testcase custom-8 (5%) ==
+thread package with public testcase custom-8: OK (2.0s)
+== Test thread package with public testcase custom-9 (5%) ==
+Timeout! thread package with public testcase custom-9: FAIL (30.6s)
+    [Error] Output on line 4: 'qemu-system-riscv64: terminating on signal 15 from pid 5099 (make)', should be 'fib 57142 400000 3'
+== Test thread package with public testcase custom-10 (5%) ==
+thread package with public testcase custom-10: OK (4.1s)
+Score: 65/75

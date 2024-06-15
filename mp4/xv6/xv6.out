@@ -1,0 +1,13 @@
+*** Now run 'gdb' in another window.
+
+xv6 kernel is booting
+
+hart 1 starting
+hart 2 starting
+init: starting sh
+$ mp4_3_private
+private testcase 1:
+/test4
+private testcase 2:
+/testa/test1/link /testa/test2 /testb
+$ qemu-system-riscv64: terminating on signal 15 from pid 3670 (make)
